@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P2P Learning Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+    <!-- 🔹 Navigation Bar -->
+    <nav class="navbar">
+        <a href="#" class="logo">EduSpace</a>
+        <div class="container nav-container">
+           
+            <button class="nav-toggle" onclick="toggleMenu()">
+                <i data-lucide="menu"></i>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="min-h-screen bg-gradient">
+        <!-- Hero Section -->
+        <div class="container">
+            <div class="hero-content">
+                <h1>Connect, Learn, and Grow Together</h1>
+                <p class="hero-description">
+                    Join our peer-to-peer learning platform where knowledge sharing meets
+                    AI-powered matchmaking. Find your perfect learning partner today.
+                    
+                </p>
+                <div class="button-group">
+                    <button class="btn btn-primary" onclick="redirectToAuth()">Get Started</button>
+                    <button onclick="window.location.href='learn.html';">Learn More</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Features Section -->
+        <div class="bg-white features-section">
+            <div class="container">
+                <h2>Why Choose Our Platform?</h2>
+                <div class="features-grid">
+                    <a href='https://meet.google.com' class="feature-card">
+                        <div class="icon-container">
+                            <i data-lucide="users"></i>
+                        </div>
+                        <h3>Peer Matching</h3>
+                        <p>Bhai baaat aisi ki hmne platfom bnaya ha jo bndo or bndiyon ko jodta ha but ye tinder ni h</p>
+                    </a>
+                    <a href="skill-exchange.html" class="feature-card">
+                        <div class="icon-container">
+                            <i data-lucide="book-open"></i>
+                        </div>
+                        <h3>Skill Exchange</h3>
+                        <p>Share your expertise and learn new skills in a collaborative environment.</p>
+                    </a>
+                    <a href='https://meet.google.com' class="feature-card">
+                        <div class="icon-container">
+                            <i data-lucide="video"></i>
+                        </div>
+                        <h3>Live Sessions</h3>
+                        <p>Engage in real-time video sessions for interactive learning experiences.</p>
+                    </a>
+                    <a href="/ai.html" class="feature-card">
+                        <div class="icon-container">
+                            <i data-lucide="brain"></i>
+                        </div>
+                        <h3>AI Assistant</h3>
+                        <p>Get personalized learning recommendations powered by advanced LLaMA AI.</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

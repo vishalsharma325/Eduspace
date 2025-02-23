@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentication - P2P Learning Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="auth-container">
+        <div class="auth-box">
+            <h2>Welcome to P2P Learning</h2>
+            <div class="auth-tabs">
+                <button class="auth-tab active" onclick="switchTab('login')">Login</button>
+                <button class="auth-tab" onclick="switchTab('signup')">Sign Up</button>
+            </div>
+            
+            <form id="loginForm" class="auth-form">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Login</button>
+            </form>
+
+            <form id="signupForm" class="auth-form hidden">
+                <div class="form-group">
+                    <label for="fullName">Full Name</label>
+                    <input type="text" id="fullName" name="fullName" required>
+                </div>
+                <div class="form-group">
+                    <label for="signupEmail">Email</label>
+                    <input type="email" id="signupEmail" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="signupPassword">Password</label>
+                    <input type="password" id="signupPassword" name="password" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input type="password" id="confirmPassword" name="confirmPassword" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Sign Up</button>
+            </form>
+        </div>
+    </div>
+    <script src="auth.js"></script>
+</body>
+</html>
