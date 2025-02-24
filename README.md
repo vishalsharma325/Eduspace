@@ -11,12 +11,12 @@ Fault Tolerance: Nodes can dynamically join and leave the network without disrup
 Cross-Platform Support: Compatible with multiple operating systems and devices.
 
 Technologies Used:
-Programming Languages: HTML, CSS, JavaScript (React,TypeScript)
-Networking Protocols: WebRTC
+Programming Languages: HTML, CSS, JavaScript (React,TypeScript).
+Networking Protocols: WebRTC.
 Authentication: OAuth 2.0
-Database: MySQL
-Backend: Node.js
-Hosting: Firebase
+Database: MySQL.
+Backend: Node.js.
+Hosting: Firebase.
 
 Installation:
 1. Clone the repository:
