@@ -44,7 +44,7 @@ We welcome contributions! Follow these steps:
 5. Submit a pull request for review.
 
 License:
-This project is licensed under the MIT License.
+This project is licensed under the MIT License
 
 Contact:
 For inquiries or suggestions, reach out via email at [bhatejagarv@gmail.com] or open an issue in the repository.
