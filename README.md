@@ -1,7 +1,7 @@
 EduSpace
 
 Overview:
-This project aims to develop a Peer-to-Peer (P2P) network that enables users to communicate, share files, or perform distributed computing tasks without relying on a centralized server. The P2P architecture ensures decentralization, scalability, and efficiency in data transmission and resource sharing.
+This project aims to develop a Peer-to-Peer (P2P) network that enables users to communicate, share files, or perform distributed computing tasks without relying on a centralized server. The P2P architecture ensures decentralization, scalability, and efficiency in data transmission and resource sharing
 
 Features:
 Decentralized Network: Direct peer-to-peer connections without a central authority.
